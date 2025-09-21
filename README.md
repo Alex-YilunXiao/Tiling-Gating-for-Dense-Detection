@@ -44,7 +44,7 @@ The parameter study employs a reduced-cost approach to efficiently navigate the 
 The script expects the VisDrone dataset format (or similar).
 
 1.  **Dataset:** Place evaluation images and annotations in separate directories.
-2.  **Model Weights:** Obtain a trained YOLOv8 model weight file (e.g., `best.pt`).
+2.  **Model Weights:** Obtain a trained YOLOv11 model weight file (e.g., `best.pt`).
 
 ## Usage
 
@@ -56,4 +56,5 @@ python run_study.py --weights path/to/your/weights.pt \
                     --annotation_dir path/to/your/annotations \
                     [--output_dir ./results] \
                     [--subset_a 15] \
+
                     [--full_eval_size 100]
