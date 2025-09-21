@@ -1,0 +1,18 @@
+# Core scientific stack
+numpy
+pandas
+matplotlib
+scikit-learn>=1.0.0  # For DBSCAN
+opencv-python-headless
+
+# Deep learning framework
+# Ensure the version matches your environment (CUDA/CPU)
+# See https://pytorch.org/get-started/locally/
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO implementation
+ultralytics>=8.0.0
+
+# Utilities
+tqdm
